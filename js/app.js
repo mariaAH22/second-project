@@ -6,6 +6,7 @@ const vaciarCarritoBtn = document.querySelector('#vaciar-carrito');
 let articulosCarrito = [];
 
 // Listeners
+explanation()
 cargarEventListeners();
 
 function cargarEventListeners() {
@@ -112,4 +113,8 @@ function vaciarCarrito() {
      while(contenedorCarrito.firstChild) {
           contenedorCarrito.removeChild(contenedorCarrito.firstChild);
       }
+}
+
+function explanation() {
+        const explanationUser = window.alert('In this project an example of a Pictures search engine will be shown. The propose of this project is to show that i am able to work with css, html and javascript.');
 }
