@@ -116,5 +116,5 @@ function vaciarCarrito() {
 }
 
 function explanation() {
-        const explanationUser = window.alert('In this project an example of a Pictures search engine will be shown. The propose of this project is to show that i am able to work with css, html and javascript.');
+        const explanationUser = window.alert('In this project an example of a online courses shop will be shown. The propose of this project is to show that i am able to work with css, html and javascript.');
 }
